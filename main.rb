@@ -1,5 +1,8 @@
 class Brave
+  #セッターは定義するもの　ゲッターは呼ぶもの
 
+
+#	セッター
   def name=(name)
     @name = name
   end
@@ -8,7 +11,7 @@ class Brave
   def name
     @name
   end
-
+#	セッター
   def hp=(hp)
     @hp = hp
   end
@@ -17,7 +20,7 @@ class Brave
   def hp
     @hp
   end
-
+#	セッター
   def offense=(offense)
     @offense = offense
   end
@@ -26,7 +29,7 @@ class Brave
   def offense
     @offense
   end
-
+#	セッター
   def defense=(defense)
     @defense = defense
   end
